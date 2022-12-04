@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/prismarine_crystals"
+    },
+    
+    "overrides": [
+        {   "predicate": {},    "model": "item/prismarine_crystals"    },
+
+        {    "predicate": {"custom_model_data": 1},    "model": "item/prismarine_crystals/lunar_charm"    },
+        {"predicate":{"custom_model_data":2},"model":"item/prismarine_crystals/ring_of_luck"}
+    ]
+}

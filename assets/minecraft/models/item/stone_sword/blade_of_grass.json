@@ -1,0 +1,7 @@
+{
+		"parent":"item/handheld",
+		"textures":
+		{
+			"layer0":"item/stone_sword/blade_of_grass"
+		}
+}

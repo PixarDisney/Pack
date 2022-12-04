@@ -1,0 +1,13 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/trident"
+  },
+  "overrides": [
+      {    "predicate": {},   "model": "item/trident"    },
+     
+      {    "predicate": {"custom_model_data": 1},    "model": "optifine/cit/captains_trident_model"    },
+
+      {    "predicate": {"custom_model_data": 2},    "model": "item/trident/harpoon"    }
+  ]
+}

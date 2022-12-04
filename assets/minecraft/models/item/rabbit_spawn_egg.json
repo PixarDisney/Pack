@@ -1,0 +1,17 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/spawn_egg",
+        "layer1": "item/spawn_egg_overlay"
+    },
+    
+    "overrides": [
+        {"predicate":{},"model":"item/rabbit_spawn_egg"},
+
+        {"predicate":{"custom_model_data":1},"model":"item/rabbit_spawn_egg/pirate"},
+        {"predicate":{"custom_model_data":2},"model":"item/rabbit_spawn_egg/viking"},
+        {"predicate":{"custom_model_data":3},"model":"item/rabbit_spawn_egg/sampan"}
+
+
+    ]
+}

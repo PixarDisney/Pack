@@ -1,0 +1,15 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/netherite_axe"
+    },
+    
+    "overrides": [
+        {"predicate":{},"model":"item/netherite_axe"},
+        {"predicate":{"custom_model_data":1},"model":"item/netherite_axe/crescent_axe"},
+        {"predicate":{"custom_model_data":2},"model":"item/netherite_axe/dungeon_hammer"},
+        {"predicate":{"custom_model_data":3},"model":"item/netherite_axe/crab_hammer"},
+        {"predicate":{"custom_model_data":4},"model":"item/netherite_axe/heartstone_axe"},
+        {"predicate":{"custom_model_data":5},"model":"item/netherite_axe/"}
+    ]
+}

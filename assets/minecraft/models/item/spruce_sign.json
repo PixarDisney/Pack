@@ -1,0 +1,17 @@
+{
+	"parent": "item/generated",
+    "textures": {
+        "layer0": "item/spruce_sign"
+    },
+    
+    "overrides": [
+        {   "predicate": {},    "model": "item/spruce_sign"    },
+		
+        {"predicate":{"custom_model_data":1},"model":"item/spruce_sign/moose"},
+        {"predicate":{"custom_model_data":2},"model":"item/spruce_sign/cup"},
+        {"predicate":{"custom_model_data":3},"model":"item/spruce_sign/table"},
+		{"predicate":{"custom_model_data":4},"model":"item/spruce_sign/cat_ears"},
+        {"predicate":{"custom_model_data":5},"model":"item/spruce_sign/marina"},
+        {"predicate":{"custom_model_data":6},"model":"item/spruce_sign/captain"}
+       ]
+}

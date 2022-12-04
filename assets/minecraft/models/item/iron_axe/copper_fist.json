@@ -1,0 +1,19 @@
+{
+		"parent":"item/handheld",
+		"textures":
+		{
+			"layer0":"item/iron_axe/copper_fist"
+		},
+		"display": {
+			"thirdperson_righthand": {
+				"rotation": [ 0, -90, 55 ],
+				"translation": [ 0, -2, -3 ],
+				"scale": [ 0.7, 0.7, 0.7 ]
+			},
+			"thirdperson_lefthand": {
+				"rotation": [ 0, 90, -55 ],
+				"translation": [ 0, -2, -3 ],
+				"scale": [ 0.7, 0.7, 0.7 ]
+			}
+		}
+}

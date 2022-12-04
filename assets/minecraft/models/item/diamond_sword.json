@@ -1,0 +1,13 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_sword"
+    },
+    
+    "overrides": [
+        {   "predicate": {},    "model": "item/diamond_sword"    },
+        {    "predicate": {"custom_model_data": 1},    "model": "item/diamond_sword/frostbite_blade"    },
+        {    "predicate": {"custom_model_data": 2},    "model": "item/diamond_sword/cobalt_glaive"    },
+        {"predicate":{"custom_model_data":3},"model":"item/diamond_sword/inferno_blade"}
+    ]
+}

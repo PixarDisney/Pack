@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/raw_gold"
+    },
+    
+    "overrides": [
+        {   "predicate": {},    "model": "item/raw_gold"    },
+        {    "predicate": {"custom_model_data": 1},    "model": "item/raw_gold/golden_key"    },
+        {"predicate":{"custom_model_data":2},"model":"item/raw_gold/cobalt_key"}
+    ]
+}

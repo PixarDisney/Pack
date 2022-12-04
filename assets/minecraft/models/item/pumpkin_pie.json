@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/pumpkin_pie"
+    },
+    
+    "overrides": [
+        {   "predicate": {},    "model": "item/pumpkin_pie"    },
+
+        {    "predicate": {"custom_model_data": 1},    "model": "item/pumpkin_pie/moon_cheese"    }
+    ]
+}

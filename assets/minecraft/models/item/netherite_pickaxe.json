@@ -1,0 +1,13 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/netherite_pickaxe"
+    },
+    
+    "overrides": [
+        {   "predicate": {},    "model": "item/netherite_pickaxe"    },
+
+        {    "predicate": {"custom_model_data": 1},    "model": "item/netherite_pickaxe/ghost_anchor"    },
+        {"predicate":{"custom_model_data":2},"model":"item/netherite_pickaxe/moonstone_pickaxe"}
+    ]
+}

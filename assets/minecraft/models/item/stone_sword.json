@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stone_sword"
+    },
+    
+    "overrides": [
+        {"predicate":{},"model":"item/stone_sword"},
+        {"predicate":{"custom_model_data":1},"model":"item/stone_sword/blade_of_grass"}
+    ]
+}

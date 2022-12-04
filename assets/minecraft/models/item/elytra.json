@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/elytra"
+    },
+    
+    "overrides": [
+        {   "predicate": {},    "model": "item/elytra"    },
+
+        {    "predicate": {"custom_model_data": 1},    "model": "item/elytra/wyvern_wings"    }
+    ]
+}

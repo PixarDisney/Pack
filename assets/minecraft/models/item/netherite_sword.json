@@ -1,0 +1,16 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/netherite_sword"
+    },
+    
+    "overrides": [
+        {"predicate":{},"model":"item/netherite_sword"},
+
+        {"predicate":{"custom_model_data":1},"model":"item/netherite_sword/dungeon_dagger"},
+        {"predicate":{"custom_model_data":2},"model":"item/netherite_sword/grimsaw_blade"},
+        {"predicate":{"custom_model_data":3},"model":"item/netherite_sword/eclipse_sword"},
+        {"predicate":{"custom_model_data":4},"model":"item/netherite_sword/nautical_sword"},
+        {"predicate":{"custom_model_data":5},"model":"item/netherite_sword/chlorophyte_sword"}
+    ]
+}
