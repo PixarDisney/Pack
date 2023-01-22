@@ -1,6 +1,6 @@
 {
 	"pack": {
 		"pack_format": 9,
-		"description": [{"text":"E","color":"gold"},{"text":"P","color":"dark_green"},{"text":"C","color":"red"}]
+		"description": [{"text":"E","color":"gold"},{"text":"P","color":"dark_purple"},{"text":"C","color":"dark_aqua"}]
 	}
 }
