@@ -7,6 +7,7 @@
     "overrides": [
         {   "predicate": {},    "model": "item/raw_gold"    },
         {    "predicate": {"custom_model_data": 1},    "model": "item/raw_gold/golden_key"    },
-        {"predicate":{"custom_model_data":2},"model":"item/raw_gold/cobalt_key"}
+        {"predicate":{"custom_model_data":2},"model":"item/raw_gold/cobalt_key"},
+        {"predicate":{"custom_model_data":3},"model":"item/raw_gold/marine_key"}
     ]
 }
