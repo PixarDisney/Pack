@@ -1,0 +1,15 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/glowstone_dust"
+    },
+        "overrides": [
+        {"predicate":{"custom_model_data":1},"model":"item/glowstone_dust/berserker_stone"},
+        {"predicate":{"custom_model_data":2},"model":"item/glowstone_dust/magicians_hand"},
+        {"predicate":{"custom_model_data":3},"model":"item/glowstone_dust/lions_cowardice"},
+        {"predicate":{"custom_model_data":4},"model":"item/glowstone_dust/combo_wombo"},
+        {"predicate":{"custom_model_data":5},"model":"item/glowstone_dust/close_call"},
+        {"predicate":{"custom_model_data":6},"model":"item/glowstone_dust/pyrotechnic"},
+        {"predicate":{"custom_model_data":7},"model":"item/glowstone_dust/vampirism"}
+    ]
+}
